@@ -1,0 +1,6 @@
+docker build --rm -f Dockerfile -t ubuntu:eriddle-dev1 .
+
+docker run --rm -it -v `pwd`:/developer ubuntu:eriddle-dev1
+
+https://github.com/maliksahil/docker-ubuntu-sahil
+
